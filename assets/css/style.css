@@ -1231,12 +1231,16 @@ main {
 }
 
 .form-input {
+  background: rgb(7, 17, 26);
   color: var(--white-2);
   font-size: var(--fs-6);
   font-weight: var(--fw-400);
   padding: 13px 20px;
   border: 1px solid var(--jet);
-  border-radius: 14px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 5px;
   outline: none;
 }
 
